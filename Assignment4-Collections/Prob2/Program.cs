@@ -54,8 +54,9 @@ namespace Prob2
             Stack<int> intStack = new Stack<int>();
 
             // intialize stack
-            // if, as in this case, you know the size of stack you
-            // want to begin with, can also be done using:
+            // if you know the size of stack you
+            // want to begin with, can also be done using a loop
+            // in this case you would write:
             // for (int i = 0; i < 5; i++) { intStack.Push(i + 1);}
             intStack.Push(1);
             intStack.Push(2);
